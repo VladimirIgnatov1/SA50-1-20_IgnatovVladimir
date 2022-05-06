@@ -1,0 +1,45 @@
+
+#c {
+    position: relative;
+    left: 100px;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    padding: 20px;
+    outline: 1px solid #666 ;
+}
+
+#one {
+    position: relative;
+    width: 40px;
+    height: 40px; 
+    background: #333333;
+    border-radius: 3px;
+    left: 0px;
+    clear:both;
+    display: flex;
+}
+#two {
+position: relative;
+width: 40px;
+height: 40px;
+background: #4F4F4F;
+border-radius: 3px;
+left: 60px;
+top: -40px;
+bottom: 100px;
+clear:both;
+display: flex;
+}
+
+#three{
+position: relative;
+width: 40px;
+height: 40px;
+background: #828282;
+border-radius: 3px;
+left: 120px;
+top: -80px;
+clear:both;
+display: flex;
+}
