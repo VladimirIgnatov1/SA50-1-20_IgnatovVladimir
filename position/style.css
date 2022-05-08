@@ -142,3 +142,56 @@ top: 70px;
 
 }
 
+
+
+#conteiner3{
+    position: absolute;
+    margin-top: 2700px;
+    width: 1800px;
+    height: 1000px;
+}
+
+#c3 {
+    position: absolute;
+    margin: 20px;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    outline: 1px solid #666;
+
+}
+
+#one3 {
+    position: absolute;
+    margin: 20px;
+    width: 1720px;
+    bottom: 20px;
+    height: 720px;
+    background-color: rgb(25, 163, 32);
+    padding: 20px;
+    outline: 1px solid #666;
+}
+
+#two3 {
+position: absolute;
+width: 200px;
+height: 200px;
+background-color: white;
+left: 70px;
+top: 70px;
+z-index: 1;
+
+
+}
+
+#three3 {
+position: absolute;
+width: 200px;
+height: 200px;
+background-color: white;
+right: 70px;
+bottom: 70px;
+
+}
+
