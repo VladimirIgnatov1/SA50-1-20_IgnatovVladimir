@@ -43,13 +43,13 @@
    }
    .button1:hover {
     color: rgb(30, 255, 0);
-    transform: translateY(-5px);
+    transform: translateY(-6px);
     box-shadow: 2px 7px 5px rgb(0, 0, 0);
    }
    .button1:hover::after {
     left: 0;
    }
    .button1:active {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 50px rgb(0, 0, 0);
+    transform: translateY(-1px);
+    box-shadow: 0 10px 40px rgb(0, 0, 0);
    }
