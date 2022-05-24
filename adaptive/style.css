@@ -58,10 +58,10 @@
     }
     .all {
         grid-area: 1 / 4 / span 1 / span 2;
-        background-image: url(./assets/img/all.jpg);
+        background-image: url(./assets/img/four360.gif);
         z-index: 1000;
         outline: 2px solid rgb(51, 255, 0);
-        background-size: 520px 300px;
+        background-size: 500px 300px;
     }
     .redline {
         position: absolute;
@@ -96,14 +96,16 @@ a:hover{
 
 }
 .vse{
-	width:1280px; margin:1vh auto;
+	width: 1310px; 
+    margin:1vh auto;
     height: 908px;
+    background-color: aqua;
+    padding: 10px;
 }
 
 header{
     position: absolute;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin: 0px auto;
 	width: 1310px;
 	height: 90px;
     z-index: 10000;
@@ -248,13 +250,16 @@ footer {
 
 @media screen and (max-width: 1000px) {
     
+    html {
+        overflow: hidden;
+    }
+
     .BackgroundImage{
         position: absolute;
-        border: none;
-        margin-top: 0px;
-        width: 360px;
-        height: 640px;
-        margin-left: 0px;
+        margin: 0px auto;
+        width: 1240px;
+        height: 1920px;
+        padding: 10px;
     
     }
     
@@ -264,9 +269,9 @@ footer {
         display: grid;
         padding: 10px;
         grid-gap: 10px;
-        grid-row-gap: 201px;
-        grid-template-rows: repeat(2, 62px);
-        grid-template-columns: repeat(5, 75px);
+        grid-row-gap: 10px;
+        grid-template-rows: repeat(3, 200px);
+        grid-template-columns: repeat(5, 200px);
         z-index: 100000;
         grid-template-areas: "top" "bottom";
     }
@@ -274,12 +279,12 @@ footer {
     /* Cherepaxi */
         .leo, .raf, .mike, .donny, .all {
             object-fit: cover;
-            background-size: 150px 150px;
+            background-size: 200px 200px;
         }
     
         .leo {
             grid-area: 1 / 1 / span 1 / span 1;
-            background-image: url(./assets/img/one1.png);
+            background-image: url(./assets/img/remember2.png);
             z-index: 1000;
             outline: 2px solid rgb(0, 4, 255);
     
@@ -288,7 +293,7 @@ footer {
         .raf {
             grid-area: 1 / 2 / span 1 / span 1;
             z-index: 1000;
-            background-image: url("./assets/img/raf2.gif");
+            background-image: url(./assets/img/дом-фландерс.gif);
             outline: 2px solid rgb(255, 0, 0);
         }
         .mike {
@@ -301,13 +306,13 @@ footer {
         }
         .donny {
             grid-area: 1 / 3 / span 1 / span 1;
-            background-image: url(./assets/img/Donatello.png);
+            background-image: url(./assets/img/outplayed.gif);
             z-index: 1000;
             outline: 2px solid rgb(125, 0, 200);
         }
         .all {
             grid-area: 1 / 4 / span 1 / span 2;
-            background-image: url(./assets/img/all.jpg);
+            background-image: url(./assets/img/Four4.gif);
             z-index: 1000;
             outline: 2px solid rgb(51, 255, 0);
             background-size: 520px 300px;
@@ -345,8 +350,12 @@ footer {
     
     }
     .vse{
-        width: 640px;px; margin:1vh auto;
-        height: 404px;
+        width: 1270px; 
+        margin: 5px auto;
+        height: 2000px;
+        background-color: aqua;
+        padding: 10px;
+        left: 10px;
     }
     
     header{
