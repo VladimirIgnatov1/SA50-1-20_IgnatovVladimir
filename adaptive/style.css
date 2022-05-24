@@ -58,10 +58,10 @@
     }
     .all {
         grid-area: 1 / 4 / span 1 / span 2;
-        background-image: url(./assets/img/all.jpg);
+        background-image: url(./assets/img/four360.gif);
         z-index: 1000;
         outline: 2px solid rgb(51, 255, 0);
-        background-size: 520px 300px;
+        background-size: 500px 300px;
     }
     .redline {
         position: absolute;
@@ -246,7 +246,7 @@ footer {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     
     .BackgroundImage{
         position: absolute;
@@ -307,7 +307,7 @@ footer {
         }
         .all {
             grid-area: 1 / 4 / span 1 / span 2;
-            background-image: url(./assets/img/all.jpg);
+            background-image: url(./assets/img/Four4.gif);
             z-index: 1000;
             outline: 2px solid rgb(51, 255, 0);
             background-size: 520px 300px;
