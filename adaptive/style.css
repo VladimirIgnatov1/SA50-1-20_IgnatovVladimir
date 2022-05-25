@@ -1,11 +1,12 @@
 .BackgroundImage{
+    background-image: url(./assets/img/content-img1.png);
     position: absolute;
 	border: none;
-    margin-top: 0px;
+    margin-top: 10px;
     width: 1310px;
-    height: 820px;
+    height: 835px;
     margin-left: 0px;
-
+    background-size: 1310px 835px;
 }
 
 .greedy {
@@ -98,7 +99,7 @@ a:hover{
 .vse{
 	width: 1310px; 
     margin:1vh auto;
-    height: 908px;
+    height: 920px;
     background-color: aqua;
     padding: 10px;
 }
@@ -247,6 +248,12 @@ footer {
     margin-top: 950px;
 }
 
+.button1 {
+    width: 0%;
+    height: 0%;
+    overflow: hidden;
+}
+
 
 @media screen and (max-width: 1000px) {
     
@@ -255,23 +262,22 @@ footer {
     }
 
     .BackgroundImage{
+        background-image: url(./assets/img/content-img1.png);
         position: absolute;
-        margin: 0px auto;
-        width: 1240px;
+        margin: 65px auto;
+        width: 1260px;
         height: 1920px;
-        padding: 10px;
+        background-size: 1240px 1920px;
     
     }
     
     .greedy {
-        position: relative;
-        margin-top: 15px;
+        position:absolute;
+        margin: 100px 80px;
         display: grid;
-        padding: 10px;
-        grid-gap: 10px;
-        grid-row-gap: 10px;
-        grid-template-rows: repeat(3, 200px);
-        grid-template-columns: repeat(5, 200px);
+        grid-gap: 60px;
+        grid-template-rows: repeat(4, 500px);
+        grid-template-columns: repeat(2, 500px);
         z-index: 100000;
         grid-template-areas: "top" "bottom";
     }
@@ -279,7 +285,7 @@ footer {
     /* Cherepaxi */
         .leo, .raf, .mike, .donny, .all {
             object-fit: cover;
-            background-size: 200px 200px;
+            background-size: 500px 500px;
         }
     
         .leo {
@@ -298,35 +304,30 @@ footer {
         }
         .mike {
             background-image: url(./assets/img/3.png);
-            grid-area: 2 / 1 / span 1 / span 5;
+            grid-area: 3 / 1 / span 1 / span 2;
             z-index: 1000;
             overflow: hidden;
             outline: 2px solid rgb(255, 123, 0);
-            background-size: 1290px 300px;
+            background-size: 1100px 500px;
         }
         .donny {
-            grid-area: 1 / 3 / span 1 / span 1;
+            grid-area: 2 / 2 / span 1 / span 1;
             background-image: url(./assets/img/outplayed.gif);
             z-index: 1000;
             outline: 2px solid rgb(125, 0, 200);
         }
         .all {
-            grid-area: 1 / 4 / span 1 / span 2;
+            grid-area: 2 / 1 / span 1 / span 1;
             background-image: url(./assets/img/Four4.gif);
             z-index: 1000;
             outline: 2px solid rgb(51, 255, 0);
-            background-size: 520px 300px;
+            background-size: 500px 500px;
+            
         }
-        .redline {
-            position: absolute;
-            margin-top: 10px;
-            background-image: linear-gradient( rgb(0, 255, 76) 25% , rgb(42, 9, 95));
-            width: 1310px;
-            height: 5px;
-            z-index: 100000;
-            box-shadow: 0 0 40px rgba(0, 0, 0, .2) inset;
+        .redline{
+            width: 0%;
+            height: 0%;
         }
-        
     
     
     body{
@@ -336,9 +337,9 @@ footer {
     a{
         color:#CDCDCD;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 30px;
     letter-spacing: 0px;
     text-align: left;
     text-shadow: 1px 1px 2px black, 0 0 1em red;
@@ -352,25 +353,24 @@ footer {
     .vse{
         width: 1270px; 
         margin: 5px auto;
-        height: 2000px;
+        height: 2070px;
         background-color: aqua;
         padding: 10px;
-        left: 10px;
+        overflow-y: 1000px;
     }
     
     header{
         position: absolute;
-        margin-left: 0px;
-        margin-top: 0px;
-        width: 320px;
-        height: 45px;
+        margin: 0px auto;
+        width: 1260px;
+        height: 140px;
         z-index: 10000;
         background: linear-gradient(rgb(0, 0, 0) 20%, rgb(51, 255, 0));
     }
     
     .right_header {
         position: relative;
-        margin-left: 320px;
+        margin-left: 540px;
         margin-top: 0px;
         width: 900px;
         height: 60px;
@@ -446,29 +446,29 @@ footer {
     text-shadow: 1px 1px 2px black, 0 0 1em red;
     
     font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
+    font-size: 64px;
     font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 1px;
+    line-height: 45px;
+    letter-spacing: 2px;
     text-align: left;
     color: #F1CDB3;
     text-decoration: none;
-    text-indent: 34px;
+    text-indent: 64px;
     
     }
     
     .vk {
         position: relative;
-        top: 65px;
+        top: 110px;
         height: 15px;
         width: 189px;
-        margin-left: 45px;
+        margin-left: 30px;
         margin-top: 45px;
         border-radius: nullpx;
         min-width: 189px;
     
     font-family: Arial;
-    font-size: 12px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 15px;
     letter-spacing: 0.1em;
@@ -502,5 +502,64 @@ footer {
         position: absolute;
         margin-top: 950px;
     }
+
+
+    .button1 {
+        grid-area: 2 / 1 / span 1 / span 1;
+        margin: auto;
+        border: 3px solid #1f11e2;
+        font-size: 30px;
+        color: #00d9ff;
+        text-decoration: none;
+        width: 300px;
+        height: 90px;
+        display: block;
+        text-align: center;
+        line-height: 90px;
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        transition: .5s;
+        overflow: hidden;
+        letter-spacing: 1px;
+        z-index: 10000000;
+        background: rgb(255, 0, 0);
+       
+       
+        border-radius: 25.5px;
+       
+       }
+       
+       .button1::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(108.62deg, #d60808 20.49%, #7879F1 46.52%, #A5A6F6 78.55%, #A5A6F6 78.55%);;
+        top: 0;
+        left: -100%;
+        opacity: .5;
+        transition: .3s;
+        z-index: -1;
+       }
+       .button1::after {
+        opacity: 1;
+        transition-delay: .2.8s;
+       }
+       .button1:hover {
+        color: rgb(30, 255, 0);
+        transform: translateY(-6px);
+        box-shadow: 2px 7px 5px rgb(0, 0, 0);
+       }
+       .button1:hover::after {
+        left: 0;
+       }
+       .button1:active {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 40px rgb(0, 0, 0);
+       }
+
 }
+
+
+
 
