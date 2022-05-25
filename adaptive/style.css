@@ -76,10 +76,7 @@
     
 
 
-body{
 
-	background: grey url(images/body-bg.jpg) top repeat-x; font:12px Arial; color:#555; line-height:1.3;
-}
 a{
 	color:#CDCDCD;
 font-family: Arial;
@@ -123,7 +120,7 @@ header{
 
 }
 
-.menu{
+.menu {
     position: absolute;
     margin-top: 5px;
     margin-right: 0px;
@@ -132,14 +129,17 @@ max-width: 600px;
 border-radius: 0px;
 justify-content: right;
 display: flex;
-
-
-
-
-
-
-    
 }
+
+footer {
+    background-image: url(./assets/img/FOOTER.jpg);
+    position: absolute;
+    margin-top: 50px;
+    height: 200px;
+    width: 1280px; 
+    background-color: #d60808;
+}
+
 .menu li{
     position: relative;
     left: 5px;
@@ -226,7 +226,7 @@ text-shadow: 1px 1px 2px black, 0 0 1em red;
 
 
 a.ats {
-    color:#FAFAFA;
+    color:#ff0000;
 
 font-family: Arial;
 font-size: 15px;
@@ -257,14 +257,11 @@ footer {
 
 @media screen and (max-width: 1000px) {
     
-    html {
-        overflow: hidden;
-    }
 
     .BackgroundImage{
         background-image: url(./assets/img/content-img1.png);
         position: absolute;
-        margin: 65px auto;
+        margin: 65px 5px;
         width: 1260px;
         height: 1920px;
         background-size: 1240px 1920px;
@@ -352,7 +349,9 @@ footer {
     }
     .vse{
         width: 1270px; 
-        margin: 5px auto;
+        margin-left: 100px;
+        margin-right: 50px;
+        margin-top: auto;
         height: 2070px;
         background-color: aqua;
         padding: 10px;
@@ -362,6 +361,7 @@ footer {
     header{
         position: absolute;
         margin: 0px auto;
+        margin-left: 5px;
         width: 1260px;
         height: 140px;
         z-index: 10000;
@@ -370,7 +370,7 @@ footer {
     
     .right_header {
         position: relative;
-        margin-left: 540px;
+        margin-left: 600px;
         margin-top: 0px;
         width: 900px;
         height: 60px;
@@ -383,7 +383,7 @@ footer {
         margin-top: 5px;
         margin-right: 0px;
     height: 27px;
-    max-width: 600px;
+    width: 600px;
     border-radius: 0px;
     justify-content: right;
     display: flex;
@@ -500,7 +500,11 @@ footer {
     
     footer {
         position: absolute;
-        margin-top: 950px;
+        margin-top: 50px;
+        height: 600px;
+        width: 1280px; 
+        margin-left: 105px;
+        background-size: 1280px 600px;
     }
 
 
